@@ -12,7 +12,7 @@ c = number_c % 10
 number_d = number1 // 10
 d = number_d % 10
 
-number_e = number1 // 1
+number_e = number1
 e = number_e % 10
 
 print(e*10000+d*1000+c*100+b*10+a*1)
