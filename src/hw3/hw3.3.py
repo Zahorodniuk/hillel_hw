@@ -1,14 +1,14 @@
-testinput1 = [1,2,3,4,5,6]
-testinput2 = [1,2,3]
-testinput3 = [1,2,3,4,5]
-testinput4 = [1]
-testinput5 = []
+test_input_1 = [1, 2, 3, 4, 5, 6]
+test_input_2 = [1, 2, 3]
+test_input_3 = [1, 2, 3, 4, 5]
+test_input_4 = [1]
+test_input_5 = []
 
-inputList = testinput1
+input_list = test_input_1
 
-size = len(inputList)
+size = len(input_list)
 i = size - size // 2
 
-result = [inputList[:i], inputList[i:]]
+result = [input_list[:i], input_list[i:]]
 print(result)
 

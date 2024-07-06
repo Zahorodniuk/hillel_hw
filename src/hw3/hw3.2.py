@@ -3,11 +3,11 @@ testinput2 = [1]
 testinput3 = []
 testinput4 = [12, 3, 4, 10, 8]
 
-inputList = testinput4
-listLen = len(inputList)
+input_list = testinput4
+list_len = len(input_list)
 
-if listLen > 1:
-    x = inputList.pop(listLen - 1)
-    inputList.insert(0, x)
+if list_len > 1:
+    x = input_list.pop(list_len - 1)
+    input_list.insert(0, x)
 
-print(inputList)
+print(input_list)
