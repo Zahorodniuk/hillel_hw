@@ -1,6 +1,3 @@
-from typing import Set
-
-
 def common_elements():
     r3 = set(range(0, 100, 3))
     r5 = set(range(0, 100, 5))
